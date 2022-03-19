@@ -1,0 +1,140 @@
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item {
+    width: 100%;
+    height: 100%;
+}
+
+.gap-1 {
+    gap: 0.25rem;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.gap-3 {
+    gap: 0.75rem;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.col-1 {
+    grid-template-columns: 1fr;
+}
+
+.col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.col-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.col-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.col-7 {
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.col-8 {
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.col-9 {
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.col-10 {
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.col-11 {
+    grid-template-columns: repeat(11, 1fr);
+}
+
+.col-12 {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* Span Classes */
+
+.col-span-2 {
+    grid-column: span 2;
+}
+
+.col-span-3 {
+    grid-column: span 3;
+}
+
+.col-span-4 {
+    grid-column: span 4;
+}
+
+.col-span-5 {
+    grid-column: span 5;
+}
+
+.col-span-6 {
+    grid-column: span 6;
+}
+
+.col-span-7 {
+    grid-column: span 7;
+}
+
+.col-span-8 {
+    grid-column: span 8;
+}
+
+.col-span-9 {
+    grid-column: span 9;
+}
+
+.col-span-10 {
+    grid-column: span 10;
+}
+
+.col-span-11 {
+    grid-column: span 11;
+}
+
+.col-span-12 {
+    grid-column: span 12;
+}
+
+.row-span-2 {
+    grid-row: span 2;
+}
+
+.row-span-3 {
+    grid-row: span 3;
+}
+
+.row-span-4 {
+    grid-row: span 4;
+}
+
+.row-span-5 {
+    grid-row: span 5;
+}
+
+.row-span-6 {
+    grid-row: span 6;
+}
